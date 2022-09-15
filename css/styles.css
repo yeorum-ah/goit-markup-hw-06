@@ -560,6 +560,9 @@ body {
 .subscribe-news {
   margin-left: 93px;
 }
+.icon-btn {
+  fill: var(--white);
+}
 /*Потфоліо кнопки*/
 .filters .item {
   color: var(--main-color);
@@ -748,7 +751,7 @@ body {
 }
 .close-btn:hover,
 .close-btn:focus {
-  color: var(--blue);
+  fill: var(--blue);
 }
 .icon-vector {
   fill: currentColor;
@@ -787,10 +790,10 @@ input:focus + .form-icon {
 .check-icon {
   display: block;
   width: 16px;
-  fill: var(--main-color);
+  fill: var(--white);
   height: 15px;
   border: 2px solid var(--main-color);
-
+  color: var(--white);
   margin-right: 8.38px;
   border-radius: 2px;
   background-color: inherit;
@@ -805,6 +808,8 @@ input:focus + .form-icon {
 }
 .check-input:checked + .check-icon {
   border: none;
+
+  background-color: var(--blue);
 }
 
 .checkbox-wrapper {
