@@ -420,22 +420,13 @@
           <p class="news-title">Підпишіться на розсилку</p>
           <form class="footer-form">
             <label for="mail"></label>
-            <input
-              type="email"
-              name="email"
-              id="mail"
-              placeholder="E-mail"
-              autocomplete="on"
-            />
-
-            <span class="button-wrapper">
-              <button type="submit">
-                Підписатися
-                <svg class="icon-btn" width="24" height="24">
-                  <use href="./images/icons.svg#icon-send"></use>
-                </svg>
-              </button>
-            </span>
+            <input type="email" name="email" id="mail" placeholder="E-mail" autocomplete="on" />
+            <button class="submit" type="submit">
+              Підписатися
+              <svg class="icon-btn" width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
@@ -458,7 +449,6 @@
               </svg>
             </div>
           </div>
-
           <div class="form-field">
             <label for="telephone"> Телефон </label>
             <div class="input-wrapper">
@@ -468,7 +458,6 @@
               </svg>
             </div>
           </div>
-
           <div class="form-field">
             <label for="email"> Пошта </label>
             <div class="input-wrapper">
@@ -478,39 +467,23 @@
               </svg>
             </div>
           </div>
-
           <div class="form-comment">
             <label for="comment"> Коментар </label>
-            <textarea
-              name="comment"
-              id="comment"
-              placeholder="Введіть текст"
-            ></textarea>
+            <textarea name="comment" id="comment" placeholder="Введіть текст"></textarea>
           </div>
-
           <div class="form-checkbox">
             <label class="checkbox-wrapper">
-              <input
-                class="check-input"
-                type="checkbox"
-                name="verification"
-                value="agreement"
-              />
+              <input class="check-input" type="checkbox" name="verification" value="agreement" />
               <svg class="check-icon" width="16" height="15">
                 <use href="./images/icons.svg#icon-vector-tick"></use>
               </svg>
-              Погоджуюся з розсилкою та приймаю  <a href=""> Умови договору</a> 
+              Погоджуюся з розсилкою та приймаю <a href=""> Умови договору</a>
             </label>
           </div>
-
           <button type="submit" class="btn-submit">Відправити</button>
         </form>
       </div>
     </div>
-
-      </div>
-    </div>
-
     <script src="./js/modal.js"></script>
   </body>
 </html>
